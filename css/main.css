@@ -1,0 +1,184 @@
+/***** BASE STYLES *****/
+
+
+@font-face{
+	font-family: 'Wisdom Script';
+	src: url('../fonts/wisdom-script.otf') format('opentype');
+}
+
+body {
+	font-family: 'Montserrat', sans-serif; 
+}
+
+a {
+	color: #77a466;
+	text-decoration: none;
+}
+
+p{
+	font-size: 14px;
+}
+
+h1, h2, h3, h4{
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.top, .bottom{
+	margin: 0 auto;
+	clear: both;
+}
+
+
+/***** GRID ****/
+
+.full-width {
+	margin: 0 auto;
+	width: 1200px;
+}
+
+.third-width {
+	width: 399px;
+	height: auto;
+	float: left;
+}
+
+/***** HEADER *****/
+
+header {
+	height: 110px;
+}
+
+header h1{
+	float: left;
+ 	font-size: 30px;
+ 	padding: 20px 0;
+}
+
+header h1 span{
+	color: #77a466;
+}
+
+header nav {
+	float: right;
+	padding: 46px 0;
+}
+
+header nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+header nav ul li {
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 0 10px;
+	display: inline;
+}
+
+
+/***** TOP *****/
+
+.top{
+	margin: 0 auto;
+	clear: both;
+	padding-bottom: 20px;
+}
+
+.main-image{
+	height: auto;
+	float: left;
+}
+
+.main-image img{
+	border-top: 3px solid #77a466;
+	border-bottom: 3px solid #77a466;
+}
+
+.main-title{
+	height: auto;
+	float: left;
+}
+
+.main-title h2{
+	text-align: left;
+	color: #77a466;
+	font-size: 18px;
+	padding: 5px 0;
+}
+
+.main-title p{
+	padding: 0;
+	font-size: 16px;
+	line-height: 25px;
+}
+
+/***** BOTTOM *****/
+
+.bottom{
+	border-top: 1px solid #77a466;
+	margin: 0 auto;
+	clear: both;
+}
+
+.bottom h3{
+	font-size: 12px;
+}
+
+
+#menu {
+	list-style: none;
+	padding: 0;
+}
+
+#menu li{
+	list-style: none;
+	padding: 10px 0;
+	color: #77a466;
+}
+
+#middle {
+	border-right: 1px solid #77a466;
+	border-left: 1px solid #77a466;
+}
+
+#reviews {
+	padding: 0 30px;
+	width: 337px;
+}
+
+#reviews p{
+	font-size: 16px;
+	line-height: 21px;
+}
+
+#contact{
+	padding: 0 30px;
+	width: 337px;
+}
+
+#contact p{
+	font-size: 16px
+	line-height: 24px;
+}
+
+footer{
+	height: 50px;
+	font-weight: 700;
+	text-transform: uppercase;
+	border-top: 1px solid #77a466;
+	margin: 0 auto;
+	clear: both;
+	text-align: center;
+}
+
+footer span{
+	font-family: 'Wisdom Script', cursive;
+	text-transform: lowercase;
+	color: #77a466;
+	font-size: 14px;
+}
+
+
+
